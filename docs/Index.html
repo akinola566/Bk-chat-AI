@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BK AI Chat</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h1>BK<span class="animate-dot">.</span><span class="animate-dot">.</span><span class="animate-dot">.</span></h1>
+    </div>
+    <div class="suggestions">
+      <div class="suggestion-card">What's the weather today?</div>
+      <div class="suggestion-card">How to create a bot?</div>
+      <div class="suggestion-card">Build a website</div>
+      <div class="suggestion-card">Tell me a joke</div>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="chat-input-container">
+      <input type="text" id="userInput" placeholder="Type your message here...">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+  </html>
